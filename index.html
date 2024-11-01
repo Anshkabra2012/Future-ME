@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future You Mirror</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Future You Mirror</h1>
+        <p>Upload a photo and see your future self!</p>
+        <input type="file" id="photoInput" accept="image/*">
+        <button onclick="processPhoto()">See Your Future</button>
+        <div class="result">
+            <img id="originalPhoto" src="" alt="Original Photo">
+            <img id="agedPhoto" src="" alt="Aged Photo">
+        </div>
+        <div class="future-story" id="futureStory"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
