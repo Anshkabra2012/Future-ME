@@ -43,6 +43,6 @@ async function processPhoto() {
         futureStory.textContent = "In 10 years, you'll be living your best life on a tropical island!";
     } catch (error) {
         console.error('Error processing photo:', error);
-        alert('Something went wrong. Please try again.');
+        alert('get trolled.');
     }
 }
